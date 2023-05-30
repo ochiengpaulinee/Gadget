@@ -155,12 +155,34 @@ ul.navbar {
   background-color: black;
   color: white;
   justify-content: space-between;
-  /* height: 50%; */
-  /* max-height: max-content; */
 }
 .footer1{
   margin-left: 5%;
 }
 h3{
   font-size: 20px;
+}
+
+@media screen and (max-width:570px){
+  .footer{
+    display:grid;
+    gap:5%;
+    text-align:center;
+    height:100%;
+    width:62%
+  }
+}
+/*   .footer5{
+    margin-top:40%;
+  }
+  .footer2{
+    margin-top:20%;
+  }
+  .below{
+    display:grid;
+    margin-left:-10%;
+  }  
+  #sub{
+  }
+}
 }
