@@ -149,3 +149,18 @@ ul.navbar {
   }
 } */
 
+
+.footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  /* height: 50%; */
+  /* max-height: max-content; */
+}
+.footer1{
+  margin-left: 5%;
+}
+h3{
+  font-size: 20px;
+}
