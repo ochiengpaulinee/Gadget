@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 150px;
+    /* position: fixed; */
+  }
+
+  ul.navbar li {
+    float: left;
+    margin-left: 10%;
+  }
+
+  ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+  }
+
+  ul.navbar li a:hover {
+    background-color: #111;
+  }
+  #gad{
+    color: white;
+  }
+  /* .navbar{
+    position: fi;
+  } */
+  #game{
+    color: white;
+    font-size: 20%;
+  }
+
+  /* ul.navbar li i{
+    color: white;
+  } */
+  .btn{
+    background-color: yellow;
+    margin-left: 15%;
+    width: 10%;
+    height: 50px;
+    margin-bottom: 10%;
+  }
+  .category{
+    /* margin-bottom: 10%; */
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 70px;
+  }
+  .below{
+    margin-top: 2%;
+    /* background-image:url('/images/gadget1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 30px; */
+  }
+.search{
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 35px;
+    /* width: 55%; */
+}
+.below1{
+    background-image: url(images/gadget1.jpeg);
+}
+.home{
+    width: 90%;
+    margin: 0 70px;
+}
+
+
+.icons{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.mobile{
+    border: solid;
+    width: 0%;
+}
+#ma{
+    font-size: 50px;
+    margin-left: 40px;
+    
+}
+.devices{
+    margin-left: 10%;
+    border: solid;
+}
+#gd{
+    font-size: 50px;
+}
+.audio{
+    margin-left: 13%;
+    border: solid;
+}
+#aa{
+    font-size: 50px;
+}
+.tv{
+    margin-left: 10%;
+    border: solid;
+}
+#tv{
+    font-size: 50px;
+}
+#icons{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+#new{
+  margin-left: 90px;
+}
+#ps{
+  margin-left: 90px;
+}
+#test{
+  margin-left: 190px;
+}
+#sub{
+  margin-left: 50px;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.products{
+    border: solid rgb(198 203 198);
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+/* @media screen and(max-width:1024px){
+  #footer{
+    width: 10px;
+  }
+} */
+
